@@ -1,5 +1,5 @@
 {
-  "name": "react-grid",
+  "name": "ideatec-commerce-back-office",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,10 +10,21 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "axios": "^1.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-grid-layout": "^1.3.4",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "recoil": "^0.7.7",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "styled-components": "^5.3.9",
     "typescript": "^4.4.2",
+    "util": "^0.12.5",
+    "util-deprecate": "^1.0.2",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -39,5 +50,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-grid-layout": "^1.3.2",
+    "@types/react-query": "^1.2.9",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/recoil": "^0.0.9",
+    "@types/styled-components": "^5.1.26",
+    "@types/util-deprecate": "^1.0.0",
+    "@types/uuidv4": "^5.0.0"
   }
 }
